@@ -1,0 +1,53 @@
+.userInput{
+    background-size: 100%;
+    background-color: rgb(241, 170, 243);
+    height: 1000px; 
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+.profile{
+    height: 250px;
+    width: 150px;
+    padding-left: 40%;
+    padding-top: 10%;
+    /* padding-right: 280px; */
+}
+.description{
+    display: flex;
+    position: absolute;    
+    top: 150px;
+    right: 40px;
+    left: 70px;
+    justify-content: space-around;
+}
+
+.image{
+    position: relative;
+    width: 150px;
+    height: 200px;
+
+}
+.choose{
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 300px;
+    padding-right: 300px; */
+}
+.Select{
+    cursor: pointer;
+    border: 1.5px solid rgb(5, 5, 5);    
+    border-radius: 50%;
+    padding: 20px; 
+    width: 20px;
+    height: 20px;
+}
+.Reject{
+    cursor: pointer;
+    border: 1.5px solid rgb(5, 5, 5);    
+    border-radius: 50%;
+    padding: 20px; 
+    width: 20px;
+    height: 20px;
+}
